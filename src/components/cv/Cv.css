@@ -1,0 +1,32 @@
+body {
+  background-image: url(../../assets/images/homepage.jpg);
+  backdrop-filter: blur(15px);
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_cv {
+  background-image: url(../../assets/images/homepage.jpg);
+  backdrop-filter: blur(15px);
+  width: 100%;
+  /* height: auto; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navigation_btn {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+.pdf_doc {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+/* .react-pdf__Page__annotations .annotationLayer {
+  height: 100px !important;
+} */

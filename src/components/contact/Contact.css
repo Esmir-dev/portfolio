@@ -1,0 +1,51 @@
+/* body {
+  background-image: url(../../assets/images/homepage.jpg);
+  backdrop-filter: blur(15px);
+  width: 100%;
+  height: auto;
+  /* background-position: center; */
+/* background-repeat: no-repeat;
+  background-size: cover; */
+* {
+  box-sizing: border-box;
+}
+.contact_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  background-image: url(../../assets/images/homepage.jpg);
+  backdrop-filter: blur(15px);
+  width: 100%;
+  height: auto;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_card {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+}
+.contact_card h1 {
+  justify-content: center;
+  align-items: center;
+  padding-left: 140px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 100px;
+  margin-top: 50px;
+  background-color: rgb(65, 80, 212);
+  display: inline-flex;
+  list-style: none;
+}
+.github_icon {
+  background-color: rgb(51, 51, 52);
+  border-radius: 50%;
+}
+.github_icon:hover {
+  transform: scale(1.5);
+  background-color: 2px solid red;
+}

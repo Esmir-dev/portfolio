@@ -1,0 +1,20 @@
+/* .about_card {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 200px;
+  display: flex;
+  align-self: center;
+  border: 2px solid black;
+  padding: 300px 40px 00;
+} */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.blue {
+  color: blue;
+}
