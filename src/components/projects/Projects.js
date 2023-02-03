@@ -9,35 +9,46 @@ import {
   ProjectCard6,
 } from "./ProjectsCard";
 
-export default function Projects(content, description) {
+export default function Projects(content) {
   return (
     <div className="main">
       <div className="first">
         <div>
           <ProjectCard1
-            content={content.content.content.projects.todolist}
-            description={content.content.content.description.todolist}
+            naslov={content.content.content.projects.todolist}
+            content={content.content.content.description.todolist}
           />
         </div>
         <div>
-          <ProjectCard2 content={content.content.content.projects.weatherApp} />
+          <ProjectCard2
+            naslov={content.content.content.projects.weatherApp}
+            content={content.content.content.description.weatherApp}
+          />
         </div>
         <div>
-          <ProjectCard3 content={content.content.content.projects.videoApp} />
+          <ProjectCard3
+            naslov={content.content.content.projects.videoApp}
+            content={content.content.content.description.videoApp}
+          />
         </div>
       </div>
       <div className="second">
         <div className="a">
           <ProjectCard4
-            content={content.content.content.projects.membershipApp}
+            naslov={content.content.content.projects.membershipApp}
+            content={content.content.content.description.membershipApp}
           />
         </div>
         <div className="a">
-          <ProjectCard5 content={content.content.content.projects.mernTodo} />
-        </div>
+          <ProjectCard5
+            naslov={content.content.content.projects.mernTodo}
+            content={content.content.content.description.mernTodo}
+          />
+        </div>{" "}
         <div className="a">
           <ProjectCard6
-            content={content.content.content.projects.sixthProject}
+            naslov={content.content.content.projects.recommendationApp}
+            content={content.content.content.description.recommendationApp}
           />
         </div>
       </div>

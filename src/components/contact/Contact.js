@@ -5,21 +5,12 @@ import { AiFillFacebook } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
-export default function Contact() {
+export default function Contact(content) {
   return (
     <div className="contact_main">
       <div className="contact_card">
         <h1 style={{ fontSize: "1.5em", textTransform: "uppercase" }}>
-          If You think I'm a{" "}
-          <i>
-            {" "}
-            <span className="blue">good candidate for Your company,</span>{" "}
-          </i>{" "}
-          <br /> feel free to{" "}
-          <i>
-            {" "}
-            <span className="blue">contact me.</span>{" "}
-          </i>
+          {content.content.content.contact.contactMe}
         </h1>
         <ul>
           <li>

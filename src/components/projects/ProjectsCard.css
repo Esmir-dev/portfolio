@@ -3,13 +3,14 @@
   border-radius: 10px;
   box-shadow: 0 0 1px;
   margin-top: 30px;
-  height: 400px;
-  width: 310px;
+  height: 390px;
+  width: 350px;
   overflow: hidden;
   overflow-wrap: break-word;
   text-align: center;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: white;
+  /* position: relative; */
 }
 
 .card_project:hover {
@@ -29,12 +30,13 @@
   font-size: 15px;
   color: black italic;
   text-align: center;
-  width: 280px;
+  width: 330px;
   margin: 5px auto;
   text-align: justify;
   text-justify: inter-word;
   display: block;
   overflow: auto;
+  position: relative;
 }
 
 button {
@@ -44,6 +46,7 @@ button {
   width: 100px;
   height: 30px;
   border-radius: 5px;
+  position: relative;
 }
 
 button:hover {

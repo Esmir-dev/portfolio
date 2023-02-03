@@ -5,3 +5,6 @@
   margin: 20px 0;
   padding: 10px;
 }
+.download_btn {
+  justify-content: space-around;
+}

@@ -4,12 +4,7 @@
 
 .main {
   display: grid;
-  background-image: url(../../assets/images/homepage.jpg);
-  backdrop-filter: blur(15px);
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-bottom: 5%;
 }
 .first,
 .second {
@@ -23,6 +18,6 @@
   width: 100%;
 }
 
-/* .a {
-  max-width: 100%;
-} */
+.a naslov {
+  text-transform: uppercase;
+}

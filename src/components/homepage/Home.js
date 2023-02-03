@@ -5,9 +5,6 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home">
-      {/* <div className="introduce_text">
-        Hi! I am Esmir Neretljak. MERN Stack Developer
-      </div> */}
       <div className="card">
         <div className="top">
           <img src={profile} alt="esmir" className="top-image" />

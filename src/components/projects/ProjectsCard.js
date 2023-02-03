@@ -5,25 +5,21 @@ import videoBrowser from "../../assets/images/video-browser.jpg";
 import todo from "../../assets/images/todo.jpg";
 import membership from "../../assets/images/membership.jpg";
 import todoB from "../../assets/images/todo0.jpg";
+import recommendation from "../../assets/images/recommendation.jpg";
 import { FaGithub } from "react-icons/fa";
-// import { useNavigate } from "react-router-dom";
 
 const ProjectCard1 = (content) => {
+  // console.log("test");
+  // console.log(content);
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={todoB} alt="bla" width="350" height="180" />
+        <img src={todoB} alt="todo" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.content}</b>
+        <b>{content.naslov}</b>
       </div>
-      <div className="card_content">
-        {content.content.description}
-        {/* Simple Todo application. Basic frontend application made in javascript
-        framework; React. There are input and button. User can add item, and the
-        same one can edit and delete. Data is saved in localStorage. The newest
-        item is set at the top of list. Application is good for everyday use. */}
-      </div>
+      <div className="card_content">{content.content}</div>
       <button
         onClick={() => window.open("https://github.com/Esmir-dev/to-do-list")}
       >
@@ -37,16 +33,14 @@ const ProjectCard2 = (content) => {
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={weather} alt="bla" width="350" height="180" />
+        <img src={weather} alt="weather" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.content}</b>
+        <b>{content.naslov}</b>
       </div>
       <div className="card_content">
-        Weather app is an application that provide users with the current
-        weather conditions, including temperature in Celzius, weather conditions
-        as well, as wind speed and direction, day or night. If enter non-exist
-        city-name, there will show an error. Check the weather in your city.
+        {content.content}
+        {/*  */}
       </div>
       <button
         onClick={() => window.open("https://github.com/Esmir-dev/weather-app2")}
@@ -61,17 +55,12 @@ const ProjectCard3 = (content) => {
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={videoBrowser} alt="bla" width="350" height="180" />
+        <img src={videoBrowser} alt="videoBrowser" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.content}</b>
+        <b>{content.naslov}</b>
       </div>
-      <div className="card_content">
-        Frontend app where you can search youtube videos. After you enter the
-        name of the video, it will show you 5 videos, in order like on youtube
-        platform. Application built in React js, using axios librery to connect
-        to youtube platform. Also used css frameworks.
-      </div>
+      <div className="card_content">{content.content}</div>
       <button
         onClick={() =>
           window.open("https://github.com/Esmir-dev/video-browser")
@@ -87,17 +76,12 @@ const ProjectCard4 = (content) => {
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={membership} alt="bla" width="350" height="180" />
+        <img src={membership} alt="membership" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.content}</b>
+        <b>{content.naslov}</b>
       </div>
-      <div className="card_content">
-        Membership App is a basic full stack MERN application. We built this
-        part of app with CRUD operations and authentication-authorization (AUTH)
-        capabilities. Also we created frontend side of application. We added
-        interactive user interface to the basic user and auth features.
-      </div>
+      <div className="card_content">{content.content}</div>
       <button
         onClick={() => window.open("https://github.com/Esmir-dev/membership")}
       >
@@ -112,17 +96,12 @@ const ProjectCard5 = (content) => {
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={todo} alt="bla" width="350" height="180" />
+        <img src={todo} alt="todoMern" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.content}</b>
+        <b>{content.naslov}</b>
       </div>
-      <div className="card_content">
-        The app contains signup and login/out inputs (author/authent). There are
-        4 todo categories where we can manually move items from one category to
-        another using drag & drop method. We can also add a new category or a
-        new task, and we can edit or delete a task or category.
-      </div>
+      <div className="card_content">{content.content}</div>
       <button
         onClick={() =>
           window.open("https://github.com/Esmir-dev/task_mern_todo")
@@ -135,22 +114,25 @@ const ProjectCard5 = (content) => {
   );
 };
 
-const ProjectCard6 = () => {
+const ProjectCard6 = (content) => {
   return (
     <div className="card_project">
       <div className="card_image">
-        <img src={weather} alt="bla" width="250" height="180" />
+        <img
+          src={recommendation}
+          alt="recommendation"
+          width="350"
+          height="170"
+        />
       </div>
       <div className="card_title">
-        <b>Weather App</b>
+        <b>{content.naslov}</b>
       </div>
-      <div className="card_content">
-        Weather application is an application that provide users with the
-        current weather conditions, including temperature in Celzius, weather
-        conditions as well, as wind speed and direction.
-      </div>
+      <div className="card_content">{content.content}</div>
       <button
-        onClick={() => window.open("https://github.com/Esmir-dev/weather-app2")}
+        onClick={() =>
+          window.open("https://github.com/Esmir-dev/recommendation-app")
+        }
       >
         <FaGithub />
         &nbsp; GitHub

@@ -8,7 +8,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 export default function Menu({ content }) {
   return (
-    <>
+    <div className="nesto">
       <a href="/" className="menu-link">
         <p className="menu-link">
           <AiOutlineHome />
@@ -40,6 +40,6 @@ export default function Menu({ content }) {
         </p>{" "}
         <p className="menu_links">{content?.header.fourthLink || ""}</p>
       </a>
-    </>
+    </div>
   );
 }

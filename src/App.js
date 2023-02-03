@@ -2,6 +2,8 @@ import Header from "./components/shared/header/Header";
 import MainRouter from "./MainRouter";
 import React, { useEffect, useState } from "react";
 import { getContent } from "./content/content";
+// import background from "../src/assets/images/homepage.jpg";
+import "./App.css";
 
 function App() {
   const [language, setLanguage] = useState("");
@@ -38,10 +40,10 @@ function App() {
     <>
       {load && <div className="loading">Loading...</div>}
       {!load && (
-        <>
+        <div>
           <Header setLanguage={setLanguage} content={content} />
           <MainRouter content={content} />
-        </>
+        </div>
       )}
     </>
   );

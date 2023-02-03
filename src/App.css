@@ -1,0 +1,25 @@
+#root {
+  white-space: pre-line;
+}
+
+body {
+  background-image: url("../src/assets/images/homepage.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 760px) {
+  .header {
+    float: left;
+    display: none;
+  }
+  body {
+    background-image: url("../src/assets/images/homepage.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

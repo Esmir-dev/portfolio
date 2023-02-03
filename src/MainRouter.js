@@ -13,10 +13,9 @@ export default function MainRouter(content) {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About content={content} />} />
-          // dodat za projec
           <Route path="/projects" element={<Projects content={content} />} />
           <Route path="/cv" element={<Cv />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact content={content} />} />
         </Routes>
       </BrowserRouter>
     </>

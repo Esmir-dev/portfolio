@@ -23,6 +23,22 @@ a {
   margin-left: 5px;
 }
 
-/* .menu_main {
-  color: red;
-} */
+.nesto {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  width: 100%;
+}
+@media only screen and (max-width: 760px) {
+  .nesto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu-link {
+    height: 10px;
+    margin-bottom: 25px;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+}
