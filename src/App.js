@@ -12,7 +12,6 @@ function App() {
 
   useEffect(() => {
     let lang = localStorage.getItem("lang");
-
     if (lang) {
       setLanguage(lang);
     } else {
@@ -42,7 +41,9 @@ function App() {
       {!load && (
         <div>
           <Header setLanguage={setLanguage} content={content} />
-          <MainRouter content={content} />
+          <div className="app">
+            <MainRouter content={content} />
+          </div>
         </div>
       )}
     </>

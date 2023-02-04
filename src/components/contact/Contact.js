@@ -17,7 +17,7 @@ export default function Contact(content) {
             <a
               href="https://github.com/Esmir-dev"
               target="blanc"
-              className="github_icon"
+              className="icon"
             >
               <FaGithub />
             </a>
@@ -26,7 +26,7 @@ export default function Contact(content) {
             <a
               href="https://www.facebook.com/profile.php?id=100008616545249"
               target="blanc"
-              className="github_icon"
+              className="icon"
             >
               <AiFillFacebook />
             </a>
@@ -35,13 +35,13 @@ export default function Contact(content) {
             <a
               href="https://www.linkedin.com/in/esmir-neretljak/"
               target="blanc"
-              className="github_icon"
+              className="icon"
             >
               <BsLinkedin />
             </a>
           </li>
           <li>
-            <a href="#" target="blanc" className="github_icon">
+            <a href="#" target="blanc" className="icon">
               <SiGmail />
             </a>
           </li>

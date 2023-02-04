@@ -1,3 +1,8 @@
+.main_cv {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .navigation_btn {
   display: flex;
   margin: 30px 0;

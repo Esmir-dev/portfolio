@@ -2,11 +2,24 @@
   box-sizing: border-box;
 }
 
-.main {
-  display: grid;
-  margin-bottom: 5%;
+.main-card {
+  /* display: grid;
+  margin-bottom: 5%; */
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
 }
-.first,
+
+@media only screen and (max-width: 760px) {
+  .main-card {
+    justify-content: center;
+  }
+}
+/* .first,
 .second {
   grid-template-columns: 1fr 1fr 1fr;
   display: flex;
@@ -16,8 +29,8 @@
   justify-content: space-around;
   max-height: 100%;
   width: 100%;
-}
+} */
 
-.a naslov {
+/* .a {
   text-transform: uppercase;
-}
+} */

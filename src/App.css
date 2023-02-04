@@ -2,7 +2,25 @@
   white-space: pre-line;
 }
 
+html,
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  /* max-width: 1440px;
+  margin: 0 auto; */
+  background-image: url("../src/assets/images/homepage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* body {
   background-image: url("../src/assets/images/homepage.jpg");
   height: 100%;
   background-position: center;
@@ -22,4 +40,4 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-}
+} */

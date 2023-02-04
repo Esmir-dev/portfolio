@@ -17,22 +17,20 @@ export default function Header({ setLanguage, content }) {
 
   return (
     <header>
-      <div className="menu">
-        <Menu content={content} />
-        <select
-          name="languages"
-          id="languages"
-          onChange={changeHandler}
-          className="translate"
-        >
-          <option id="en" value="en">
-            English
-          </option>
-          <option id="bh" value="bh">
-            Bosnian
-          </option>
-        </select>
-      </div>
+      <Menu content={content} />
+      <select
+        name="languages"
+        id="languages"
+        onChange={changeHandler}
+        className="translate"
+      >
+        <option id="en" value="en">
+          English
+        </option>
+        <option id="bh" value="bh">
+          Bosnian
+        </option>
+      </select>
     </header>
   );
 }

@@ -1,7 +1,10 @@
 .home {
-  height: 100%;
   display: flex;
-  margin-top: 3.2%;
+  min-height: 100vh;
+  /* height: 100%;
+  margin-top: 3.2%; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .introduce_text {
