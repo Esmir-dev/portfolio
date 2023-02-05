@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 
-.main-card {
-  /* display: grid;
-  margin-bottom: 5%; */
+.main_card {
   min-height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
@@ -19,18 +17,3 @@
     justify-content: center;
   }
 }
-/* .first,
-.second {
-  grid-template-columns: 1fr 1fr 1fr;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
-  max-height: 100%;
-  width: 100%;
-} */
-
-/* .a {
-  text-transform: uppercase;
-} */

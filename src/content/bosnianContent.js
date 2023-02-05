@@ -16,7 +16,7 @@ const bosnianContent = {
     ali u budućnosti se vidim kao full stack ili backend developer. \n
     Nakon samostalnog učenja smatram da je vrijeme da započnem i zvanično svoju It karijeru.\n
     Smatram da kopaniji mogu donijeti dozu zrelosti, detaljnosti, odgovornosti, fleksibilnosti.\n
-    Sebe smatram ambicioznim te priželjkujem kvalitetno okruženje i dobrog mentora uz koje se mogu razvijati kao osoba, ali pogotovo kako programer.\n
+    Sebe smatram ambicioznim te priželjkujem kvalitetno okruženje i dobrog mentora uz koje se mogu razvijati kao osoba, ali pogotovo kao programer.\n
     Više informacija o meni, mojim vještinama, iskustvima i obrazovanju možete pronaći u CV sekciji.`,
   },
   projects: {

@@ -5,13 +5,6 @@
   padding: 0 50px;
   align-items: center;
   width: 100%;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #338eea; */
-  /* padding-top: 5px;
-  padding-bottom: 5px; */
-  /* justify-content: space-around; */
 }
 nav {
   width: inherit;
@@ -21,12 +14,7 @@ nav {
   align-items: center;
   color: #ffffff;
   text-decoration: none;
-  /* display: flex;
-  align-items: center; */
 }
-/* .menu_link:hover {
-  border: 1px solid red;
-} */
 .menu-link p {
   margin-left: 10px;
 }
@@ -41,10 +29,11 @@ nav {
     position: absolute;
     top: 50px;
     right: 0;
-    color: #0670f9;
+    color: #363ff6;
     background-color: #fff;
     width: 100%;
     text-align: center;
+    cursor: pointer;
   }
   .hide {
     display: none;
@@ -53,7 +42,8 @@ nav {
     display: block;
   }
   .menu-link {
-    color: #5da0f792;
+    color: #0116d292;
+    font-weight: bold;
   }
 }
 /* a {

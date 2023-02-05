@@ -4,7 +4,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home_main">
       <div className="card">
         <div className="top">
           <img src={profile} alt="esmir" className="top-image" />

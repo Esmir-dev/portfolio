@@ -17,7 +17,7 @@ const ProjectCard1 = (content) => {
         <img src={todoB} alt="todo" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">{content.content}</div>
       <button
@@ -36,7 +36,7 @@ const ProjectCard2 = (content) => {
         <img src={weather} alt="weather" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">
         {content.content}
@@ -58,7 +58,7 @@ const ProjectCard3 = (content) => {
         <img src={videoBrowser} alt="videoBrowser" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">{content.content}</div>
       <button
@@ -79,7 +79,7 @@ const ProjectCard4 = (content) => {
         <img src={membership} alt="membership" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">{content.content}</div>
       <button
@@ -99,7 +99,7 @@ const ProjectCard5 = (content) => {
         <img src={todo} alt="todoMern" width="350" height="170" />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">{content.content}</div>
       <button
@@ -126,7 +126,7 @@ const ProjectCard6 = (content) => {
         />
       </div>
       <div className="card_title">
-        <b>{content.naslov}</b>
+        <b>{content.name}</b>
       </div>
       <div className="card_content">{content.content}</div>
       <button
