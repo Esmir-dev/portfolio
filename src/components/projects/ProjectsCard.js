@@ -103,9 +103,7 @@ const ProjectCard5 = (content) => {
       </div>
       <div className="card_content">{content.content}</div>
       <button
-        onClick={() =>
-          window.open("https://github.com/Esmir-dev/task_mern_todo")
-        }
+        onClick={() => window.open("https://github.com/Esmir-dev/mern_todo")}
       >
         <FaGithub />
         &nbsp; GitHub
